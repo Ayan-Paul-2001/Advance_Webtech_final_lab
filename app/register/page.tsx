@@ -21,10 +21,10 @@ export default function RegisterPage() {
             onChange={(e) => setRole(e.target.value)}
             className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
           >
-            <option value="user" className="text-black">User</option>
-            <option value="employee" className="text-black">Employee</option>
-            <option value="admin" className="text-black">Admin</option>
-            <option value="hr" className="text-black">HR</option>
+
+            <option value="admin" className="text-black">
+              Admin
+            </option>
           </select>
         </div>
 
@@ -59,36 +59,6 @@ export default function RegisterPage() {
             />
           </div>
 
-          {/* Employee Fields */}
-          {role === "employee" && (
-            <>
-              <div>
-                <label className="block text-white mb-2">Employee ID</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                  placeholder="e.g. EMP1234"
-                />
-              </div>
-              <div>
-                <label className="block text-white mb-2">Department</label>
-                <select className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400">
-                  <option className="text-black">Engineering</option>
-                  <option className="text-black">HR</option>
-                  <option className="text-black">Marketing</option>
-                  <option className="text-black">Finance</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-white mb-2">Role</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                  placeholder="e.g. Software Engineer"
-                />
-              </div>
-            </>
-          )}
 
           {/* Admin Fields */}
           {role === "admin" && (
@@ -115,36 +85,6 @@ export default function RegisterPage() {
                   type="tel"
                   className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-400"
                   placeholder="e.g. +880 123 456 789"
-                />
-              </div>
-            </>
-          )}
-
-          {/* HR Fields */}
-          {role === "hr" && (
-            <>
-              <div>
-                <label className="block text-white mb-2">HR ID</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
-                  placeholder="e.g. HR9876"
-                />
-              </div>
-              <div>
-                <label className="block text-white mb-2">Department Managed</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
-                  placeholder="e.g. Engineering, Marketing"
-                />
-              </div>
-              <div>
-                <label className="block text-white mb-2">Years of Experience</label>
-                <input
-                  type="number"
-                  className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
-                  placeholder="e.g. 5"
                 />
               </div>
             </>
