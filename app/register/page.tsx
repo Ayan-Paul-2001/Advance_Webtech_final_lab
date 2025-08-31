@@ -35,7 +35,7 @@ export default function RegisterPage() {
             <input
               type="text"
               className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
-              placeholder="Your name"
+              placeholder="Give Your name"
             />
           </div>
 
@@ -83,7 +83,7 @@ export default function RegisterPage() {
                 <label className="block text-white mb-2">Phone Number</label>
                 <input
                   type="tel"
-                  className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-400"
+                  className="w-full px-4 py-2 bg-white/10 text-white rounded-lg border-white/30 focus:outline-none focus:ring-2 focus:ring-red-400"
                   placeholder="e.g. +880 123 456 789"
                 />
               </div>
@@ -93,7 +93,7 @@ export default function RegisterPage() {
           {/* Submit */}
           <button
             type="submit"
-            className="w-full py-3 bg-gradient-to-r from-green-400 to-cyan-500 rounded-lg text-white font-semibold hover:opacity-90 transition"
+            className="w-full py-3 bg-gradient-to-r from-green-500 to-cyan-200 border-lg text-white font-semibold hover:opacity-95 transition"
           >
             Register
           </button>
