@@ -23,23 +23,23 @@ export default function LandingPage() {
             href="/register"
             className="px-5 py-2 rounded-lg bg-gradient-to-r from-pink-500 to-yellow-500 hover:opacity-90 transition"
           >
-            Register
+            Sign Up
           </Link>
         </div>
       </header>
 
       <div className="text-center px-6 mt-20">
         <h2 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-lg">
-          AIUB Employee Management System
+          Empowering Your Digital Presence
         </h2>
         <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto opacity-90">
-          Streamline your employee management with our intuitive platform.
+          We craft cutting-edge solutions for businesses to thrive in a modern, digital world. Let's build your future together.
         </p>
         <Link
           href="/register"
           className="px-8 py-4 text-lg rounded-full bg-gradient-to-r from-green-400 to-cyan-500 hover:opacity-90 transition font-semibold shadow-lg"
         >
-          START YOUR JOURNEY!!
+          Get Started
         </Link>
       </div>
     </div>
